@@ -1,0 +1,94 @@
+/* General */
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anonymous Pro', monospace;
+    background-color: #FDEBED;
+}
+
+.title {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #088395;
+}
+
+.card {
+    margin: 20px 0;
+}
+
+.card .card-header {
+    color: #088395;
+    font-size: 25px;
+}
+
+.card .card-header i {
+    font-size: 23px;
+}
+
+.card-body .card-title {
+    margin-bottom: 15px;
+}
+
+.card-body .card-title span {
+    font-weight: bold;
+    color: #088395;
+}
+
+.card-body .input-info .input-item {
+    padding-left: 0;
+}
+
+.card-body .input-item input {
+    border-radius: 5px;
+    border: 2px solid #D8D9DA;
+}
+
+.card-body button {
+    background-color: #088395;
+    padding: 8px;
+    border: 1px solid #088395;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.card-body button:active, .card-body button:hover {
+    background-color: #1AACAC;
+    border: 1px solid #1AACAC;
+}
+
+.card-footer h5 {
+    color: #088395;
+}
+
+.card-footer p {
+    color: #088395;
+    font-weight: bold;
+} 
+
+.card-footer p .output {
+    color: black;
+    font-weight: bold;
+}
+
+/* Exercise 1 */
+.ex1 .card-body .input-info {
+    width: 80%;
+    margin: 25px 0;
+}
+
+/* Exercise 2 */
+.ex2 .card-body .input-info {
+    width: 100%;
+    margin: 25px 0;
+}

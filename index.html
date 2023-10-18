@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <!-- Font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <title>Exercises JS - 1</title>
+    <!-- Adding favicon -->
+    <link rel="icon" href="images/icons8-source-code-96.png" type="image/png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">homework - javascript 1</h2>
+        <!-- Exercise 1 -->
+        <div class="card ex1">
+            <div class="card-header">
+                <i class="fa fa-bookmark"></i>
+                Exercise 1 - Calculate Employee Salaries
+            </div>
+            <div class="card-body">
+                <h6 class="card-title">
+                    Formula: <span>Salary per day * Number of working days</span>
+                </h6>
+                <div class="row input-info">
+                    <div class="input-item col-6">
+                        <label for="salary">Enter salary per day</label>
+                        <input type="text" id="salary" name="salary">
+                    </div>
+                    <div class="input-item col-6">
+                        <label for="day">Enter number of working days</label>
+                        <input type="text" id="day" name="day">
+                    </div>
+                </div>
+                <button onclick="calculateSalary()">Calculate Salary</button>
+            </div>
+            <div class="card-footer">
+                <h5>Result</h5>
+                <p class="ex1-result">
+                    <i class="fa fa-hand-point-right"></i>
+                    <span id="ex1-output" class="output"></span>
+                    VND
+                </p>
+            </div>
+        </div>
+
+        <!-- Exercise 2 -->
+        <div class="card ex2">
+            <div class="card-header">
+                <i class="fa fa-bookmark"></i>
+                Exercise 2 - Calculate The Average Value
+            </div>
+            <div class="card-body">
+                <h6 class="card-title">
+                    Formula: <span>(num 1 + num 2 + ... + num 5) / 5</span>
+                </h6>
+                <div class="row input-info">
+                    <div class="input-item col-2">
+                        <input type="text" id="num1" name="num1" placeholder="Enter numero 1">
+                    </div>
+                    <div class="input-item col-2">
+                        <input type="text" id="num2" name="num2" placeholder="Enter numero 2">
+                    </div>
+                    <div class="input-item col-2">
+                        <input type="text" id="num3" name="num3" placeholder="Enter numero 3">
+                    </div>
+                    <div class="input-item col-2">
+                        <input type="text" id="num4" name="num4" placeholder="Enter numero 4">
+                    </div>
+                    <div class="input-item col-2">
+                        <input type="text" id="num5" name="num5" placeholder="Enter numero 5">
+                    </div>
+                </div>
+                <button onclick="calAverageNum()">Calculate</button>
+            </div>
+            <div class="card-footer">
+                <h5>Result</h5>
+                <p class="ex2-result">
+                    <i class="fa fa-hand-point-right"></i>
+                    <span id="ex2-output" class="output"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS -->
+    <script src="./index.js"></script>
+</body>
+</html>
