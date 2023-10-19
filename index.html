@@ -90,6 +90,39 @@
                 </p>
             </div>
         </div>
+
+        <!-- Exercise 3 -->
+        <div class="card ex3">
+            <div class="card-header">
+                <i class="fa fa-bookmark"></i>
+                Exercise 3 - Convert Money from USD to VND
+            </div>
+            <div class="card-body">
+                <h6 class="card-title">
+                    Formula: <span>amount of money * exchange rate</span>
+                </h6>
+                <div class="row input-info">
+                    <div class="input-item col-6">
+                        <h6>Exchange Rate:
+                            <span style="color: #088395; font-weight: bold;">23.500 VND</span>
+                        </h6>
+                    </div>
+                    <div class="input-item col-6">
+                        <label for="amount">Enter amount in USD</label>
+                        <input type="text" id="amount" name="amount">
+                    </div>
+                </div>
+                <button onclick="convertMoney()">Convert</button>
+            </div>
+            <div class="card-footer">
+                <h5>Result</h5>
+                <p class="ex3-result">
+                    <i class="fa fa-hand-point-right"></i>
+                    <span id="ex3-output" class="output"></span>
+                    VND
+                </p>
+            </div>
+        </div>
     </div>
 
     <!-- Bootstrap JS -->

@@ -81,14 +81,21 @@ body {
     font-weight: bold;
 }
 
+.card .card-body .input-info {
+    margin: 25px 0;
+}
+
 /* Exercise 1 */
 .ex1 .card-body .input-info {
     width: 80%;
-    margin: 25px 0;
 }
 
 /* Exercise 2 */
 .ex2 .card-body .input-info {
     width: 100%;
-    margin: 25px 0;
+}
+
+/* Exercise 3 */
+.ex3 .card-body .input-info {
+    width: 80%;
 }
