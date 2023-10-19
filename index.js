@@ -105,3 +105,33 @@ function rectangleResults() {
     document.getElementById("ex4-area").innerText = area;
     document.getElementById("ex4-perimeter").innerText = perimeter;
 }; 
+
+/**
+ * 3-block model - Exercise 5
+ * Input:
+ *  - a double-digit number
+ * Logic Block:
+ *  - Step 1: Create a variable for a double-digit number
+ *  - Step 2: Calculate tens digit by taking a double-digit number / 10. Don't forget to round down to its nearest integer by using Math.floor()
+ *  - Step 3: Calculate units digit by taking a double-digit number % 10 
+ *  - Step 4: Calculate sum of tens digit & units digit 
+ *  - Step 5: Print out the result  
+ * Output: 
+ *  - sum of 2 digits 
+ */
+
+function sumOfDigits() {
+    // Input a double-digit number 
+    var numberEl = document.getElementById("number").value * 1; 
+
+    // Calculate tens digit 
+    var tensDigit = Math.floor(numberEl / 10); 
+    // Calculate ones digit
+    var onesDigit = numberEl % 10; 
+    // Calculate the total of 2 digits
+    var sum = tensDigit + onesDigit; 
+    console.log({tensDigit, onesDigit}); 
+
+    // Print out the result
+    document.getElementById("ex5-output").innerText = sum; 
+}; 
