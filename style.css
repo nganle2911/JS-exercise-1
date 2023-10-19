@@ -85,17 +85,12 @@ body {
     margin: 25px 0;
 }
 
-/* Exercise 1 */
-.ex1 .card-body .input-info {
+.ex1 .card-body .input-info,
+.ex3 .card-body .input-info,
+.ex4 .card-body .input-info {
     width: 80%;
 }
 
-/* Exercise 2 */
 .ex2 .card-body .input-info {
     width: 100%;
-}
-
-/* Exercise 3 */
-.ex3 .card-body .input-info {
-    width: 80%;
 }

@@ -77,3 +77,31 @@ function convertMoney() {
     // Print out the result 
     document.getElementById("ex3-output").innerText = convertedMoney; 
 }; 
+
+/**
+ * 3-block model - Exercise 4
+ * Input:
+ *  - length
+ *  - width
+ * Logic Block:
+ *  - Step 1: Create 2 variables for length & width
+ *  - Step 2: Calculate the area & perimeter in according to formula
+ *  - Step 3: Print out the area & perimeter
+ * Output: 
+ *  - area 
+ *  - perimeter 
+ */
+
+function rectangleResults() {
+    // Input length & width
+    var lengthEl = document.getElementById("length").value * 1; 
+    var widthEl = document.getElementById("width").value * 1; 
+
+    // Calculate the area & perimeter
+    var area = lengthEl * widthEl; 
+    var perimeter = (lengthEl + widthEl) * 2; 
+
+    // Print out the result 
+    document.getElementById("ex4-area").innerText = area;
+    document.getElementById("ex4-perimeter").innerText = perimeter;
+}; 

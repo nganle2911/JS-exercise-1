@@ -21,7 +21,7 @@
 </head>
 <body>
     <div class="container">
-        <h2 class="title">homework - javascript 1</h2>
+        <h2 class="title">homework - JavaScript 1</h2>
         <!-- Exercise 1 -->
         <div class="card ex1">
             <div class="card-header">
@@ -120,6 +120,43 @@
                     <i class="fa fa-hand-point-right"></i>
                     <span id="ex3-output" class="output"></span>
                     VND
+                </p>
+            </div>
+        </div>
+
+        <!-- Exercise 4 -->
+        <div class="card ex4">
+            <div class="card-header">
+                <i class="fa fa-bookmark"></i>
+                Exercise 4 - Calculate the Area & Perimeter of a Rectangle
+            </div>
+            <div class="card-body">
+                <h6 class="card-title">
+                    Formula of area: <span>length * width</span>
+                </h6>
+                <h6 class="card-title">
+                    Formula of perimeter: <span>(length + width) * 2</span>
+                </h6>
+                <div class="row input-info">
+                    <div class="input-item col-6">
+                        <label for="length">Enter length</label>
+                        <input type="text" id="length" name="length">
+                    </div>
+                    <div class="input-item col-6">
+                        <label for="width">Enter width</label>
+                        <input type="text" id="width" name="width">
+                    </div>
+                </div>
+                <button onclick="rectangleResults()">Convert</button>
+            </div>
+            <div class="card-footer">
+                <h5>Result</h5>
+                <p class="ex4-result">
+                    <i class="fa fa-hand-point-right"></i>
+                    The area: 
+                    <span id="ex4-area" class="output"></span>
+                    - The perimeter:
+                    <span id="ex4-perimeter" class="output"></span>
                 </p>
             </div>
         </div>
